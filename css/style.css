@@ -56,72 +56,93 @@ img{
 body {
     padding: 30px;
 }
-.conteiner {
-    border: 1px solid grey;
+.contener {
+    background-color: antiquewhite;
 }
 .content {
-    border: 1px solid blue;
+    border: 2px solid red;
 }
+
 .content__top {
-    border: 1px solid red;
-    background-color: rgb(160, 160, 239);
-    height: 50px;
-    
+    background-color: blueviolet;
+    height: 70px;
 }
+
 .row {
-    
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
-    
 }
-.text {
-    
-    font-size: 26px;
+
+.top__text {
+    font-size: 18px;
     color: white;
-    margin-left: 20px;
-    letter-spacing: 2px;
+    margin: 25px 15px;
 }
-.button {
-    
-    width: 300px;
+
+.top__btn {
+    margin: 20px 15px;
 }
-.red{
-    margin: 0 40px 0 0;
-    background-color: red;
+
+.btndelete {
     width: 80px;
+    height: 30px;
+    background-color: red;
     color: white;
-    letter-spacing: 1.3px;
-    padding: 5px 0;
+    font-size: 16px;
+    margin: 0 15px;
+    letter-spacing: 1.5px;
 }
-.green {
-    margin: 0 20px 0 0;
+
+.btnadd {
+    width: 200px;
+    height: 30px;
     background-color: green;
     color: white;
-    letter-spacing: 1.3px;
-    padding: 5px 0;
-    width: 150px;
-}
-/* .content__table {
-    
-} */
-table {
-    width: 100%;
-}
-th {
-    font-size: 18px;
-    border-collapse: collapse;
-    height: 50px;
-}
-td {
-    text-align: center;
     font-size: 16px;
-    height: 40px;
-    border-top: 3px solid rgb(218, 211, 211);
+    letter-spacing: 1.5px;
 }
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+th {
+    width: 16px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+td {
+    width: 16px;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
 img {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
+    background-color: antiquewhite;
 }
-
-
+.btnsave {
+    background-color: green;
+    width: 50px;
+    height: 30px;
+    color: wheat;
+    border-radius: 29px;
+}
+.btncancel {
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    color: wheat;
+    border-radius: 29px;
+}
+input {
+    height: 22px;
+    font-size: 14px;
+    padding: 5px;
+}

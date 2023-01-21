@@ -8,6 +8,109 @@
     <title>Table</title>
 </head>
 <body>
+    <template class="row1">
+        <tr >
+            <td><input type="checkbox"></td>
+            <td class="name"></td>
+            <td class="email"></td>
+            <td class="city"></td>
+            <td class="telephone"></td>
+            <td>
+                <button class="writenew"><img src="/img/2924620.png" alt="write"></button>
+                <button class="deleteInfo"><img src="/img/4585289.png" alt="delete"></button>
+            </td>
+        </tr>
+    </template>
+    <template class="newrow">
+        <tr>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td class="name"><input type="text"></td>
+            <td class="email"><input type="text"></td>
+            <td class="city"><input type="text"></td>
+            <td class="telephone"><input type="text"></td>
+            <td>
+                <button class="btnsave">Save</button>
+                <button class="btncancel">Cancel</button>
+            </td>
+        </tr>
+    </template>
+    <div class="contener">
+        <div class="content">
+            <div class="content__top">
+                <div class="row">
+                    <div class="top__text">Manager Employee</div>
+                    <div class="top__btn">
+                        <button class="btndelete">Delete</button>
+                        <button class="btnadd">Add Employee</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content__body">
+                <table class ='table'>
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>City</th>
+                            <th>Telephone</th>
+                            <th>Option</th>
+                        </tr> 
+                    </thead>
+                    <tbody class="myTable">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="/js/style.js"></script> -->
+    <script src="/style1.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Table</title>
+</head>
+<body>
+    <template class="new__row">
+        <tr>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td class="name"><input type="text"></td>
+            <td class="email"><input type="text"></td>
+            <td class="city"><input type="text"></td>
+            <td class="tel"><input type="text"></td>
+            <td>
+                <button class="save">Save</button>
+                <button class="cancel">Cancel</button>
+            </td>
+        </tr>
+    </template>
+    <template class="row">
+        <tr>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td class="name"></td>
+            <td class="email"></td>
+            <td class="city"></td>
+            <td class="tel"></td>
+            <td>
+                <button class="edit"><img src="/img/2924620.png" alt=""></button>
+                <button class="delete"><img src="/img/4585289.png" alt=""></button>
+            </td>
+        </tr>
+    </template>
     <div class="conteiner">
         <div class="content">
             <div class="content__top">
@@ -20,7 +123,7 @@
                 </div>
             </div>
             <div class="content__table">
-                <form action="">
+                <button class="showUsers">Show users</button>
                     <table>
                         <thead>
                             <tr>
@@ -34,52 +137,12 @@
                                 <th>Options</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <th>
-                                    <input type="checkbox">
-                                </th>
-                                <td>Tomas</td>
-                                <td>Tomas@mail</td>
-                                <td>Minsk</td>
-                                <td>(456)37893</td>
-                                <td>
-                                    <button><img src="/img/2924620.png" alt=""></button>
-                                    <button><img src="/img/4585289.png" alt=""></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th> 
-                                    <input type="checkbox">
-                                </th>
-                                <td>Edison</td>
-                                <td>Edison@mail</td>
-                                <td>Minsk</td>
-                                <td>(456)37893</td>
-                                <td>
-                                    <button><img src="/img/2924620.png" alt=""></button>
-                                    <button><img src="/img/4585289.png" alt=""></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <input type="checkbox">
-                                </th>
-                                <td>Velvet</td>
-                                <td>Zaser@mail</td>
-                                <td>Minsk</td>
-                                <td>(456)37893</td>
-                                <td>
-                                    <button><img src="/img/2924620.png" alt=""></button>
-                                    <button><img src="/img/4585289.png" alt=""></button>
-                                </td>
-                            </tr>
+                        <tbody class="myTable">
                         </tbody>
                     </table>
-                </form>
             </div>
         </div>
     </div>
     <script src="/js/style.js"></script>
 </body>
-</html>
+</html> -->
